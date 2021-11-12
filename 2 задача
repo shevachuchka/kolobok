@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int l;
+    int m;
+    int sum =0;
+
+    printf("l: ");
+    scanf("%i", &l);
+
+    printf("m: ");
+    scanf("%i", &m);
+
+    for (int i = l; i<= m; i++)
+        {
+            sum += 1;
+        }
+
+    printf("sum = %i", sum);
+}
